@@ -1,7 +1,6 @@
 import express from "express";
 import cors from "cors";
 import pool from "./db.js";
-import env from "dotenv";
 
 const app = express();
 const port = 5000;
